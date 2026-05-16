@@ -1,0 +1,19 @@
+public class Manager extends KarasunoMember {
+    String supportSkill;
+
+    Manager(String name, String grade, String supportSkill){
+        super(name, grade, "매니저");
+        this.supportSkill = supportSkill;
+    }
+
+    public void showManagerDetail(){
+        showPersonInfo();
+        System.out.println();
+        System.out.println("지원 능력: " + supportSkill);
+    }
+
+    public void supportTeam(){
+        System.out.println(name + " 매니저가 팀을 지원합니다-!!");
+        System.out.println("지원 능력: "+supportSkill);
+    }
+}
