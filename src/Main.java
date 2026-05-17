@@ -63,9 +63,9 @@ public class Main {
         } else if (memberNumber == 8) {
             tsukishima.showPlayerDetail();
         } else if (memberNumber == 9) {
-            yachi.showManagerDetail();
+            yachi.showManagerInfo();
         } else if (memberNumber == 10) {
-            kiyoko.showManagerDetail();
+            kiyoko.showManagerInfo();
         } else {
             System.out.println("해당 번호의 멤버는 없습니다 (꒦ິ⍸꒦ິ)");
         }

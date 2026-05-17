@@ -6,7 +6,7 @@ public class Manager extends KarasunoMember {
         this.supportSkill = supportSkill;
     }
 
-    public void showManagerDetail(){
+    public void showManagerInfo(){
         showPersonInfo();
         System.out.println();
         System.out.println("지원 능력: " + supportSkill);
