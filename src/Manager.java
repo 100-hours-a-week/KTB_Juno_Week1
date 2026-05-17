@@ -11,9 +11,4 @@ public class Manager extends KarasunoMember {
         System.out.println();
         System.out.println("지원 능력: " + supportSkill);
     }
-
-    public void supportTeam(){
-        System.out.println(name + " 매니저가 팀을 지원합니다-!!");
-        System.out.println("지원 능력: "+supportSkill);
-    }
 }
