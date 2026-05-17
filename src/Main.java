@@ -29,6 +29,7 @@ public class Main {
             Manager yachi,
             Manager kiyoko
     ) {
+        System.out.println();
         System.out.print("상세 조회하고 싶은 멤버 번호를 입력하세요 >> ");
         int memberNumber = scanner.nextInt();
 
