@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class Main {
 
     public static void printNumber() {
-        System.out.println("=================================================================================");
-        System.out.println("          『 WELCOME TO KARASUNO HIGHSCHOOL in Haikyuu MATCH SIMULATION 』          ");
-        System.out.println("=================================================================================");
+        System.out.println("====================================================================================");
+        System.out.println("          『 WELCOME TO KARASUNO HIGHSCHOOL in Haikyuu LEVEL UP SIMULATION 』          ");
+        System.out.println("====================================================================================");
         System.out.println();
-        System.out.println("1. 카라스노고교 멤버 목록 보기");
-        System.out.println("2. 카라스노 멤버 상세 정보 보기");
+        System.out.println("1. 카라스노 고교 소속 멤버 목록 보기");
+        System.out.println("2. 카라스노 고교 소속 멤버 상세 정보 보기");
         System.out.println("3. 선수 훈련 시키기");
         System.out.println("4. 경기 참가하기");
         System.out.println("5. 종료");

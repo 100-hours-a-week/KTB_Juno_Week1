@@ -30,7 +30,7 @@ public class Player extends KarasunoMember {
     }
     public static void showPlayerList() {
         System.out.println();
-        System.out.println(">> 등번호와 함께 카라스노 고교의 선수 목록을 불러옵니다..<<");
+        System.out.println(">> 카라스노 고교 소속 멤버 목록을 불러옵니다.. <<");
         System.out.println();
         System.out.println("1. 사와무라 다이치 - 윙 스파이커, 캡틴");
         System.out.println("2. 스가와라 코시 - 세터");
