@@ -3,21 +3,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void printNumber() {
-        System.out.println("====================================================================================");
-        System.out.println("        ██╗  ██╗ █████╗ ██████╗  █████╗ ███████╗██╗   ██╗███╗   ██╗ ██████╗ ");
-        System.out.println("        ██║ ██╔╝██╔══██╗██╔══██╗██╔══██╗██╔════╝██║   ██║████╗  ██║██╔═══██╗");
-        System.out.println("        █████╔╝ ███████║██████╔╝███████║███████╗██║   ██║██╔██╗ ██║██║   ██║");
-        System.out.println("        ██╔═██╗ ██╔══██║██╔══██╗██╔══██║╚════██║██║   ██║██║╚██╗██║██║   ██║");
-        System.out.println("        ██║  ██╗██║  ██║██║  ██║██║  ██║███████║╚██████╔╝██║ ╚████║╚██████╔╝");
-        System.out.println("        ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ");
-        System.out.println();
-        System.out.println(" ██╗  ██╗██╗ ██████╗ ██╗  ██╗    ███████╗ ██████╗██╗  ██╗ ██████╗  ██████╗ ██╗     ");
-        System.out.println(" ██║  ██║██║██╔════╝ ██║  ██║    ██╔════╝██╔════╝██║  ██║██╔═══██╗██╔═══██╗██║     ");
-        System.out.println(" ███████║██║██║  ███╗███████║    ███████╗██║     ███████║██║   ██║██║   ██║██║     ");
-        System.out.println(" ██╔══██║██║██║   ██║██╔══██║    ╚════██║██║     ██╔══██║██║   ██║██║   ██║██║     ");
-        System.out.println(" ██║  ██║██║╚██████╔╝██║  ██║    ███████║╚██████╗██║  ██║╚██████╔╝╚██████╔╝███████╗");
-        System.out.println(" ╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═╝  ╚═╝    ╚══════╝ ╚═════╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚══════╝");
-        System.out.println("====================================================================================");
+        System.out.println("===============================================================================");
+        System.out.println("          『 WELCOME TO KARASUNO HIGHSCHOOL in Haikyuu MATCH SIMULATION 』        ");
+        System.out.println("===============================================================================");
         System.out.println();
         System.out.println("1. 카라스노고교 멤버 목록 보기");
         System.out.println("2. 카라스노 멤버 상세 정보 보기");
@@ -25,7 +13,7 @@ public class Main {
         System.out.println("4. 경기 시뮬레이션");
         System.out.println("5. 종료");
         System.out.println();
-        System.out.print("카라스노 육성을 위한 번호를 입력하세요 >> ");
+        System.out.print("번호를 입력하여 ｢ 카라스노 고교 선수 육성 ｣ 에 함께 하세요-!! >> ");
     }
 
     public static void showMemberDetail(
@@ -41,7 +29,7 @@ public class Main {
             Manager yachi,
             Manager kiyoko
     ) {
-        System.out.print("상세 조회할 멤버 번호를 입력하세요 >> ");
+        System.out.print("상세 조회하고 싶은 멤버 번호를 입력하세요 >> ");
         int memberNumber = scanner.nextInt();
 
         System.out.println();
@@ -104,7 +92,7 @@ public class Main {
         } else if (playerNumber == 8) {
             tsukishima.train();
         } else if (playerNumber == 9 || playerNumber == 10) {
-            System.out.println("매니저는 훈련 대상이 아닙니다!)");
+            System.out.println("매니저는 훈련 대상이 아닙니다!");
         } else {
             System.out.println("해당 번호의 선수는 없습니다 (꒦ິ⍸꒦ິ)");
         }
